@@ -187,8 +187,6 @@
     <record model="ir.actions.act_window" id="action_product_brand">
         <field name="name">Brand</field>
         <field name="res_model">product.brand</field>
-        <field name="binding_model">product.brand</field>
-        <field name="binding_views">form</field>
         <field name="view_mode">kanban,form,tree</field>
     </record>
 
