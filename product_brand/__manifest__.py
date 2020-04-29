@@ -19,6 +19,8 @@
     'website': 'https://github.com/OCA/product-attribute',
     'license': 'AGPL-3',
     'depends': [
+        'account',
+        'product',
         'sale',
         ],
     'data': [
