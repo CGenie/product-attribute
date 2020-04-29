@@ -14,16 +14,18 @@
     <act_window
         id="action_open_brand_products"
         name="Brand Products"
+        binding_model="product.brand"
+        binding_views="form"
         res_model="product.template"
-        view_type="form"
         view_mode="kanban,form,tree"
         domain="[('product_brand_id', '=', active_id)]"/>
 
     <act_window
         id="action_open_single_product_brand"
         name="Product Brand"
+        binding_model="product.brand"
+        binding_views="form"
         res_model="product.brand"
-        view_type="form"
         view_mode="kanban,form,tree"
         target="current"
         domain="[('product_ids', 'in', active_id)]"/>
